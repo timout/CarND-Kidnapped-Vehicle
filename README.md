@@ -16,7 +16,7 @@ In this project you will implement a 2 dimensional particle filter in C++. Your 
 
 ## Results
 ### Performance
-The particle filter met the requirements, which were 1 meter in error for x and y translations, 0.05 rad in error for yaw, and 100 seconds of runtime for the particle filter. Error below is cumulative mean weighted error.
+The particle filter met the requirements, which were 100 seconds of runtime for the particle filter. Error below is cumulative mean weighted error.
   
 **Number of particles: 100**
 
