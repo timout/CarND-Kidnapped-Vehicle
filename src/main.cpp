@@ -57,9 +57,6 @@ int main()
 
     if (length && length > 2 && data[0] == '4' && data[1] == '2')
     {
-
-      //std::cout << data[0] << " : " << data[1] << std::endl;
-
       auto s = hasData(std::string(data));
       if (s != "")
       {
@@ -117,8 +114,6 @@ int main()
           pf.resample();
 
           // Calculate and output the average weighted error of the particle filter over all time steps so far.
-          //vector<Particle> particles = pf.particles;
-          //int num_particles = particles.size();
           double highest_weight = -1.0;
           Particle *best_particle;
           double weight_sum = 0.0;
