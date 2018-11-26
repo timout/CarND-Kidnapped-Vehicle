@@ -241,4 +241,13 @@ inline bool read_landmark_data(std::string filename, std::vector<LandmarkObs>& o
 	return true;
 }
 
+template <typename InputIt>
+std::string join(InputIt begin, InputIt end, const std::string & separator = " ")
+{
+  std::ostringstream ss;
+  if (begin != end) ss << *begin++;
+  while (begin != end) ss << separator << *begin++;
+  return ss.str();
+}
+
 #endif /* HELPER_FUNCTIONS_H_ */
