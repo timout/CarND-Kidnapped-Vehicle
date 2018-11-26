@@ -24,6 +24,6 @@ The particle filter met the requirements, which were 1 meter in error for x and 
 
 | Estim |  Error  |
 | ----- | ------- |
-|   x   | 0.117 | (m)
+|   x   | 0.114 | (m)
 |   y   | 0.103 | (m)
 |  yaw  | 0.004 | (rad)
